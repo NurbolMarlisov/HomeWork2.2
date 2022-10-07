@@ -1,12 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-   // Germany germany = new Germany(325,325);
-  //  Italy italy = new Italy(325,235);
-  //  Japon japon = new Japon(235,325);
-  //  germany.print();
-  //  italy.print();
-  //  japon.print();
+  Ussr ussr = new Ussr(324,1000000);
+  France france = new France(400,900);
+  England england = new England(500,600);
+  ussr.print();
+  france.print();
+  england.print();
 
 
 Axis germany = createObject("Germany" );
